@@ -1,0 +1,218 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: #85ADAD;
+}
+
+.font_baloo {
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.font_bree {
+    font-family: 'Bree Serif', serif;
+}
+
+.font_n {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.font_p {
+    font-family: 'Prompt', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board {
+    display: inline-flex;
+    background-color: #a0d9ba;
+    border-radius: 10px;
+    position: relative;
+    top: -119px;
+
+}
+
+h1 {
+    font-size: 4rem;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.simon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 109px;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 368px;
+    margin-right: 236px;
+
+}
+
+.but {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    /* box-shadow: 2px 2px white; */
+}
+
+
+#but-5 {
+    font-size: 1.7rem;
+}
+
+#but-1 {
+    background-color: #13b113;
+    margin-right: 2px;
+}
+
+#but-2 {
+    background-color: #ff0000;
+    margin-left: 2px;
+
+
+}
+
+#but-3 {
+    background-color: #ffbc00;
+    margin-right: 2px;
+
+
+}
+
+.b {
+    width: 300px;
+    height: 50px;
+    background-color: #096f53;
+    font-size: 2.3rem;
+    color: white;
+
+}
+
+#but-4 {
+    background-color: #0000ab;
+    margin-left: 2px;
+
+
+}
+
+.top {
+    margin-bottom: 3px;
+}
+
+.comp {
+
+    animation-name: computer;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes computer {
+    from {
+        width: 150px;
+        height: 150px;
+    }
+
+    to {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.bottom {
+    margin-top: 7px;
+}
+
+.pressed {
+
+    box-shadow: -2px 2px 5px 5px white;
+}
+
+.wrong {
+    background-color: #a10101;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.board h2 {
+    color: #415f7a;
+    font-size: 2.1rem;
+    position: relative;
+    top: 28.5px;
+    text-decoration: overline;
+}
+
+.score {
+    border-radius: 85px;
+    width: 145px;
+    height: 145px;
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
+    margin: 8px;
+    border: 2px solid white;
+}
+
+.score p {
+    position: relative;
+    top: 33px;
+    padding: 5px;
+
+}
+
+.contentscore {
+    display: flex;
+    position: relative;
+    top: -79px;
+
+
+}
+
+.hint img {
+    filter: invert(100%);
+}
+
+
+#scoreneed {
+
+
+
+
+    display: inline-flex;
+    background-color: #525252;
+    border: 2px solid white;
+    border-radius: 14px;
+    font-size: 1.2rem;
+    color: white;
+    padding: 13px;
+    align-items: center;
+    margin-left: 22.8px;
+
+    position: relative;
+    top: -80px;
+
+}
